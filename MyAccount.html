@@ -20,7 +20,8 @@
     <meta content="" name="description" />
     <meta content="" name="author" />
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
-	 <link href="./Content/css.css" rel="stylesheet" />
+	<link href="./Content/css.css" rel="stylesheet" />
+	<link href="./Content/AgencyCss.css" rel="stylesheet" />
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
     <link href="./themes/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="./themes/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
@@ -92,16 +93,24 @@
                     </a>&nbsp;&nbsp;&nbsp;
                     <ul class="dropdown-menu dropdown-menu-default">
                         <li>
-                            <a href="LoanOfficerUserProfile.html">
+                            <a href="AgencyUserProfile.html">
                                 <i class="icon-user"></i> My Profile
                             </a>
                         </li>
                         <li>
-                            <a href="ChangePassword.html">
+                            <a href="AgencyUserChangepassword.html">
                                 <i class="icon-key"></i> Change password
                             </a>
                         </li>
-                        <li class="divider">
+                        
+						<li>
+                        <a href="MyAccount.html">
+                            <i class="fa fa-user"></i>
+                            <span class="title">My Account</span>
+
+                        </a>
+                    </li>
+					<li class="divider">
                         </li>
                         <li>
                             <a href="index.html">
@@ -117,7 +126,7 @@
         <!-- END HEADER INNER -->
     </div>
     <!-- END HEADER -->
-    <div class="clearfix" style="background-color: black;">
+     <div class="clearfix" style="background-color: #080101;">
     </div>
     <!-- BEGIN CONTAINER -->
     <div class="page-container">
@@ -147,7 +156,7 @@
                         <!-- END RESPONSIVE QUICK SEARCH FORM -->
                     </li>
                     <li class="start active open">
-                        <a href="LoanDashboard.html">
+                        <a href="AgencyDashboard2New.html">
                             <i class="icon-home"></i>
                             <span class="title">Dashboard</span>
                             <span class="selected"></span>
@@ -155,25 +164,25 @@
                         </a>
 
                     </li>
+                   
                     <li>
-                        <a href="LoanCreation.html">
-                            <i class="icon-user"></i>
-                            <span class="title">Create Loan Information</span>
-                            <span class="arrow "></span>
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href="LoanOfficerUserProfile.html">
+                        <a href="AgencyUserProfile.html">
                             <i class="icon-check"></i>
                             <span class="title">My Profile</span>
                             <span class="arrow "></span>
                         </a>
                     </li>
                     <li>
-                        <a href="ChangePassword.html">
+                        <a href="AgencyUserChangepassword.html">
                             <i class="icon-question"></i>
                             <span class="title">Change Password</span>
+
+                        </a>
+                    </li>
+					  <li>
+                        <a href="MyAccount.html">
+                            <i class="fa fa-user"></i>
+                            <span class="title">My Account</span>
 
                         </a>
                     </li>
@@ -184,165 +193,104 @@
 
 <div class="page-content-wrapper" style="background-color: #e9ecf3;">
             <div class="page-content" style="background-color:#e9ecf3 !important">
-						
-			<!-- BEGIN PAGE HEADER-->
-			<div class="row">
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<div class="dashboard-stat green-haze">
-						<div class="visual">
-							<i class="fa fa-file-text-o"></i>
-						</div>
-						<div class="details">
-							<div class="number">
-								 04 
-							</div>
-							<div class="desc">
-								No. of&nbsp; Title Insurance Quotes
-							</div>
-						</div>
-						<a class="more" href="#">
-						View more <i class="m-icon-swapright m-icon-white"></i>
-						</a>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<div class="dashboard-stat blue-madison">
+		
 					
-						<div class="visual">
-							<i class="fa fa-share-square-o  " ></i>
-						</div>
-						<div class="details">
-							<div class="number">
-								 34
-							</div>
-							<div class="desc">
-								 Loan Requests
-							</div>
-						</div>
-						<a class="more" href="#">
-						View more <i class="m-icon-swapright m-icon-white"></i>
-						</a>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<div class="dashboard-stat red-intense">
-						<div class="visual">
-							<i class="fa fa-users"></i>
-						</div>
-						<div class="details">
-							<div class="number">
-								 35
-							</div>
-							<div class="desc">
-								 No. of Agencies
-							</div>
-						</div>
-						<a class="more" href="#">
-						View more <i class="m-icon-swapright m-icon-white"></i>
-						</a>
-					</div>
-				</div>
-				
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<div class="dashboard-stat purple-plum">
-						<div class="visual">
-							<i class="fa fa-file-text-o"></i>
-						</div>
-						<div class="details">
-							<div class="number">
-								 30
-							</div>
-							<div class="desc">
-								No. of&nbsp;Title Report Quotes
-							</div>
-						</div>
-						<a class="more" href="#">
-						View more <i class="m-icon-swapright m-icon-white"></i>
-						</a>
-					</div>
-				</div>
-			</div>
-			<!-- END DASHBOARD STATS -->
-			
-			<!-- 2nd row -->
-			<div class="row">
+					
+						
+						<div class="row">
 				<div class="col-md-12">
 					<!-- BEGIN EXAMPLE TABLE PORTLET-->
-					<div class="portlet box green">
+					<div class="portlet light">
 						<div class="portlet-title">
 							<div class="caption">
-								<i class="fa fa-file-text-o"></i>Port Titles
+								<img src="./images/wallet.png"/>Title Quotes Wallet
+								
+								
 							</div>
-							
+						 <a href="AgencyUserLoanPayment.html"  class="btn btn-primary pull-right">Add Money</a>
 						</div>
+						<p>Your current balance: $ 20</p>
+						<p>Title Quote Account Number:	TQ0013008757258
 						<div class="portlet-body">
 							<div class="table-toolbar">
 								
 							</div>
-							<table class="table table-striped table-bordered table-hover" id="sample_1">
+							<table class="table table-striped table-bordered table-hover" id="sample_2">
 							<thead>
 							<tr>
 								
 								<th>
-									 Title Types
-								</th>
-								<th>
-									 Status
+									  Date
 								</th>
 								
 								<th>
-									 Type of Transaction 
+									 Description
 								</th>
 								<th>
-									 Kind of Transaction 
+									 Type of Response
 								</th>
 								<th>
-									 Posted Date
+									Deducted Amount
 								</th>
 								<th>
-									 Policy Type 
+									 Available Amount 
 								</th>
 								
-								<th>
-									 Actions
-								</th>
+								
+							
 							</tr>
 							</thead>
-							<tbody>
+							<tbody style="font-size:smaller">
 							<tr class="odd gradeX">
 								
 								<td>
-									 Title Insurance
+									12 Jan 2012
 								</td>
-								<td>
-									<span class="label label-sm label-success">
-									6 &nbsp;Responses </span>
-                                </a>
+								<td class="center">
+									 <p class="pstyle">7971 Liberty Street Asheville, NC 20009 Buncombe County.</p>
+
+<p class="pstyle">It is a 2 floors building in 3Acrs Landmain advantage .....</p>
+<p class="pstyle">Title Company handle the closing.</p>
+<p class="pstyle">Closing Protection Letter (CPL) is not required.</p>
+<p class="pstyle">Deed need to be prepared.</p>
 								</td>
-								<td>
-									 Residential
+								<td class="center">
+									Crate Quote
+								</td>
+									<td>
+									 $ 1
 								</td>
 								
-								<td class="center">
-									  Refinance
-								</td>
-								<td class="center">
-									 12 Jan 2012
-								</td>
-								<td class="center">
-									 Loan Policy
+									<td>
+									 $ 19
 								</td>
 								
+								
+							</tr>
+							<tr class="odd gradeX">
+								
 								<td>
-								<a class="btn btn-xs btn-primary" href="EditLoan.html">
-								<i class="fa fa-pencil-square-o iconsize"></i>
-								</a>&nbsp;&nbsp;<a class="btn btn-xs btn-warning" href="LoanView.html"
-								style="background-color:darkturquoise !important">
-								<i class=" fa fa-eye iconsize"></i></a>&nbsp;
-								<a class="btn btn-xs btn-warning" 
-								style="background-color:#89C4F4 !important">
-								<i class=" fa fa-trash iconsize"></i></a>
+									13 Jan 2012
 								</td>
+								<td class="center">
+									 <p class="pstyle">7971 Liberty Street Asheville, NC 20009 Buncombe County.</p>
+
+<p class="pstyle">It is a 2 floors building in 3Acrs Landmain advantage .....</p>
+<p class="pstyle">Title Company handle the closing.</p>
+<p class="pstyle">Closing Protection Letter (CPL) is not required.</p>
+<p class="pstyle">Deed need to be prepared.</p>
+								</td>
+								<td class="center">
+									Accept Quote
+									</td>
+									<td>
+									 $ 1
+								</td>
+								
+									<td>
+									 $ 18
+								</td>
+								
 								
 								
 								
@@ -350,205 +298,127 @@
 							<tr class="odd gradeX">
 								
 								<td>
-									 Limited Title Report
-								</td>
-								<td>
-									<span class="label label-sm label-success">
-									6 &nbsp;Responses </span>
-								</td>
-								<td>
-									 Commercial
+									15 Feb 2015
 								</td>
 								<td class="center">
-									 Purchase
+									 <p class="pstyle">7971 Liberty Street Asheville, NC 20009 Buncombe County.</p>
+
+<p class="pstyle">It is a 2 floors building in 3Acrs Landmain advantage .....</p>
+<p class="pstyle">Title Company handle the closing.</p>
+<p class="pstyle">Closing Protection Letter (CPL) is not required.</p>
+<p class="pstyle">Deed need to be prepared.</p>
 								</td>
 								<td class="center">
-									 12 Mar 2015
-								</td>
-								<td>
-									Owner's Policy
+									Accept Quote
+									</td>
+									<td>
+									 $ 1
 								</td>
 								
-								<td>
-								<a class="btn btn-xs btn-primary" href="EditLoan.html">
-								<i class="fa fa-pencil-square-o iconsize"></i>
-								</a>&nbsp;&nbsp;<a class="btn btn-xs btn-warning" href="LoanView.html"
-								style="background-color:darkturquoise !important">
-								<i class=" fa fa-eye iconsize"></i></a>&nbsp;
-								<a class="btn btn-xs btn-warning" 
-								style="background-color:#89C4F4 !important">
-								<i class=" fa fa-trash iconsize"></i></a>
+									<td>
+									 $ 17
 								</td>
+								
+								
 							</tr>
 							<tr class="odd gradeX">
 								
 								<td>
-									 Limited Title Report
-								</td>
-								<td>
-									<span class="label label-sm label-success">
-									6 &nbsp;Responses </span>
-								</td>
-								<td>
-									  Residential
+									14 Mar 2015
 								</td>
 								<td class="center">
-									  Refinance
+									 <p class="pstyle">7971 Liberty Street Asheville, NC 20009 Buncombe County.</p>
+
+<p class="pstyle">It is a 2 floors building in 3Acrs Landmain advantage .....</p>
+<p class="pstyle">Title Company handle the closing.</p>
+<p class="pstyle">Closing Protection Letter (CPL) is not required.</p>
+<p class="pstyle">Deed need to be prepared.</p>
 								</td>
 								<td class="center">
-									 26 Apr 2015
+									Create Quote
+									</td>
+									<td>
+									 $ 1
 								</td>
-								<td>
-									Owner's Policy
+								
+									<td>
+									 $ 16
 								</td>
-								<td>
-								<a class="btn btn-xs btn-primary" href="EditLoan.html">
-								<i class="fa fa-pencil-square-o iconsize"></i>
-								</a>&nbsp;&nbsp;<a class="btn btn-xs btn-warning" href="LoanView.html"
-								style="background-color:darkturquoise !important">
-								<i class=" fa fa-eye iconsize"></i></a>&nbsp;
-								<a class="btn btn-xs btn-warning" 
-								style="background-color:#89C4F4 !important">
-								<i class=" fa fa-trash iconsize"></i></a>
-								</td>
+								
 							</tr>
 							<tr class="odd gradeX">
 								
 								<td>
-									 Title Insurances
-								</td>
-								<td>
-									<span class="label label-sm label-success">
-									6 &nbsp;Responses </span>
-								</td>
-								<td>
-									  Residential
+									20 Mar 2015
 								</td>
 								<td class="center">
-									  Refinance
+									 <p class="pstyle">7971 Liberty Street Asheville, NC 20009 Buncombe County.</p>
+
+<p class="pstyle">It is a 2 floors building in 3Acrs Landmain advantage .....</p>
+<p class="pstyle">Title Company handle the closing.</p>
+<p class="pstyle">Closing Protection Letter (CPL) is not required.</p>
+<p class="pstyle">Deed need to be prepared.</p>
 								</td>
 								<td class="center">
-									 12 Jan 2015
+									Create Quote
+									</td>
+									<td>
+									 $ 1
 								</td>
-								<td>
-									Owner's Policy
+								
+									<td>
+									 $ 15
 								</td>
-								<td>
-								<a class="btn btn-xs btn-primary" href="EditLoan.html">
-								<i class="fa fa-pencil-square-o iconsize"></i>
-								</a>&nbsp;&nbsp;<a class="btn btn-xs btn-warning" href="LoanView.html"
-								style="background-color:darkturquoise !important">
-								<i class=" fa fa-eye iconsize"></i></a>&nbsp;
-								<a class="btn btn-xs btn-warning" 
-								style="background-color:#89C4F4 !important">
-								<i class=" fa fa-trash iconsize"></i></a>
-								</td>
+							
+								
+								
+								
 							</tr>
 							<tr class="odd gradeX">
 								
 								<td>
-									 Limited Title Report
-								</td>
-								<td>
-									<span class="label label-sm label-success">
-									6 &nbsp;Responses </span>
-								</td>
-								<td>
-									 Commercial
-								</td>
+									19 Jan 2014
 								</td>
 								<td class="center">
-									 Purchase
+									 <p class="pstyle">7971 Liberty Street Asheville, NC 20009 Buncombe County.</p>
+
+<p class="pstyle">It is a 2 floors building in 3Acrs Landmain advantage .....</p>
+<p class="pstyle">Title Company handle the closing.</p>
+<p class="pstyle">Closing Protection Letter (CPL) is not required.</p>
+<p class="pstyle">Deed need to be prepared.</p>
 								</td>
 								<td class="center">
-									 12 Mar 2015
+									Accept Quote
+									</td>
+									<td>
+									 $ 1
 								</td>
-								<td>
-									Loan Policy
-								</td>
-								<td>
-								<a class="btn btn-xs btn-primary" href="EditLoan.html">
-								<i class="fa fa-pencil-square-o iconsize"></i>
-								</a>&nbsp;&nbsp;<a class="btn btn-xs btn-warning" href="LoanView.html"
-								style="background-color:darkturquoise !important">
-								<i class=" fa fa-eye iconsize"></i></a>&nbsp;
-								<a class="btn btn-xs btn-warning" 
-								style="background-color:#89C4F4 !important">
-								<i class=" fa fa-trash iconsize"></i></a>
-								</td>
-							</tr>
-							<tr class="odd gradeX">
 								
-								<td>
-									 Title Insurances
+									<td>
+									 $ 14
 								</td>
-								<td>
-									<span class="label label-sm label-success">
-									6 &nbsp;Responses </span>
-								</td>
-								<td>
-									 Commercial
-								</td>
-								</td>
-								<td class="center">
-									 Purchase
-								</td>
-								<td class="center">
-									 12 Mar 2015
-								</td>
-								<td>
-									Loan Policy
-								</td>
-								<td>
-								<a class="btn btn-xs btn-primary" href="EditLoan.html">
-								<i class="fa fa-pencil-square-o iconsize"></i>
-								</a>&nbsp;&nbsp;<a class="btn btn-xs btn-warning" href="LoanView.html"
-								style="background-color:darkturquoise !important">
-								<i class=" fa fa-eye iconsize"></i></a>&nbsp;
-								<a class="btn btn-xs btn-warning" 
-								style="background-color:#89C4F4 !important">
-								<i class=" fa fa-trash iconsize"></i></a>
-								</td>
-							</tr>
-							<tr class="odd gradeX">
 								
-								<td>
-									 Limited Title Report
-								</td>
-								<td>
-									<span class="label label-sm label-success">
-									6 &nbsp;Responses </span>
-								</td>
-								<td>
-									 Commercial
-								</td>
-								</td>
-								<td class="center">
-									 Refinance
-								</td>
-								<td class="center">
-									 12 Mar 2015
-								</td>
-								<td>
-									Owner's Policy
-								</td>
-								<td>
-								<a class="btn btn-xs btn-primary" href="EditLoan.html">
-								<i class="fa fa-pencil-square-o iconsize"></i>
-								</a>&nbsp;&nbsp;<a class="btn btn-xs btn-warning" href="LoanView.html"
-								style="background-color:darkturquoise !important">
-								<i class=" fa fa-eye iconsize"></i></a>&nbsp;
-								<a class="btn btn-xs btn-warning" 
-								style="background-color:#89C4F4 !important">
-								<i class=" fa fa-trash iconsize"></i></a>
-								</td>
 							</tr>
+							
 							</tbody>
 							</table>
 						</div>
 					</div>
 					<!-- END EXAMPLE TABLE PORTLET-->
+				
+			</div>
+					
+						
+					</div>
+				
+				<!-- 2nd portlet box -->
+			
+			</div>
+			<!-- 2nd row -->
+			
 				</div>
+			</div>
+			
 			</div>
 			
 			
@@ -559,7 +429,7 @@
 	
 	<div class="page-footer">
 	<div class="page-footer-inner">
-		 2014 © Title Quotes .<a href="LoanDashboard.html" >Dashboard</a>
+		 2014 © Title Quotes .<a href="AgencyUserDashBoard.html" >Dashboard</a>
 	</div>
 	<div class="scroll-to-top" style="display: block;">
 		<i class="icon-arrow-up"></i>
@@ -626,9 +496,6 @@
 	<script>
 	$('[rel=popover]').popover();
 	</script>
-	<style>
 	
-	
-	</style>
 	</body>
 </html>
