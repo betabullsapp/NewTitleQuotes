@@ -19,9 +19,9 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="" name="description" />
     <meta content="" name="author" />
-	<link href="./Content/css.css" rel="stylesheet" />
-		<link href="./Content/AgencyCss.css" rel="stylesheet" />
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
+	<link href="./Content/log.css" rel="stylesheet" />
+	 <link href="./Content/css.css" rel="stylesheet" />
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
     <link href="./themes/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="./themes/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
@@ -125,7 +125,7 @@
         <!-- END HEADER INNER -->
     </div>
     <!-- END HEADER -->
-     <div class="clearfix" style="background-color: #080101;">
+    <div class="clearfix" style="background-color: black;">
     </div>
     <!-- BEGIN CONTAINER -->
     <div class="page-container">
@@ -155,7 +155,7 @@
                         <!-- END RESPONSIVE QUICK SEARCH FORM -->
                     </li>
                     <li class="start active open">
-                        <a href="AgencyUserDashBoard.html">
+                        <a href="LoanDashboard.html">
                             <i class="icon-home"></i>
                             <span class="title">Dashboard</span>
                             <span class="selected"></span>
@@ -163,7 +163,7 @@
                         </a>
 
                     </li>
-                   
+                    
                     <li>
                         <a href="AgencyUserProfile.html">
                             <i class="icon-check"></i>
@@ -180,7 +180,7 @@
                     </li>
 					<li>
                         <a href="AgencyAccount.html">
-                          <img src="./images/my-account.png"/ class="imgaccount">&nbsp;
+                            <img src="./images/my-account.png"/ class="imgaccount">&nbsp;
                             <span class="title">My Account</span>
 
                         </a>
@@ -191,121 +191,77 @@
         </div>
 
 <div class="page-content-wrapper" style="background-color: #e9ecf3;">
-         
-	
-				<div class="page-content">
-			<!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
-			
-			<!-- /.modal -->
-			<!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
-			<!-- BEGIN STYLE CUSTOMIZER -->
-			
-			<!-- END STYLE CUSTOMIZER -->
+            <div class="page-content" style="background-color:#e9ecf3 !important">
+						
 			<!-- BEGIN PAGE HEADER-->
-		
-			
-			<!-- END PAGE HEADER-->
-			<!-- BEGIN PAGE CONTENT-->
 			<div class="portlet light">
     <div class="portlet-body">
-     <h3 class="page-title top3">
-			View Quote
-			</h3><hr/> 
-			<div class="row">
-        <div class="col-md-10">
-		
-            <div class="portlet box green-haze">
-                <div class="portlet-title">
-                    <div class="caption ">
-                        <i class=""></i>
-                        <span class="caption-subject bold uppercase ">Title Insurance</span>
-                    </div>
-					
-                    <div class="actions">
-                        <span class="caption-subject viewgreenfont">
-                            Owner's Policy Only
-                        </span>
-
-                    </div>
+     <div class="row">
+	 
+	<div class="col-md-2"></div>
+			<div class="row ">
+				<div class="col-md-8 ">
+				<div class="portlet box blue-steel">
+						<div class="portlet-title">
+							<div class="caption" style="padding:0 0;">
+								<h4 style="font-size:15px"> Confirmation Message</h4>
+							</div>
+							
+							<div class="actions ">
+							
                     
+                                
                 </div>
+						</div>
+						<div class="portlet-body">
+                <div class="" style="height:" data-rail-visible="1" data-rail-color="yellow" data-handle-color="#a1b2bd">
 
-                <div class="portlet-body">
-				
-                    <div class="" style="height:" data-rail-visible="1" data-rail-color="yellow" data-handle-color="#a1b2bd">
-                        <h4 class="h4color">Primary Address</h4>
-                        <div class="portlet-body">
-                            <div class="row static-info">
-                                <div class="col-md-2 name">
-                                    Street:
-                                </div>
-                                <div class="col-md-6 value">
-                                    7971 Liberty Street,
-                                </div>
-                            </div>
-                            <div class="row static-info">
-                                <div class="col-md-2 name">
-                                    City:
-                                </div>
-                                <div class="col-md-6 value">
-                                    Asheville,
-                                </div>
-                            </div>
-                            <div class="row static-info">
-                                <div class="col-md-2 name">
-                                    State:
-                                </div>
-                                <div class="col-md-6 value">
-                                    NC 20009,
-                                </div>
-                            </div>
-                            <div class="row static-info">
-                                <div class="col-md-2 name">
-                                    Countryr:
-                                </div>
-                                <div class=" col-md-6 value">
-                                    Buncombe.
-                                </div>
+                    <div class="portlet-body">
+                        
+                        <div class="row static-info">
+                           <div class="col-md-2"></div>
+                            <div class="col-md-10 ">
+                              <h4> 
+							  An amount of $1 will be debited from your account to respond with a quote. Do you want to continue?
+							 <h4>
                             </div>
                         </div>
+						<hr>
+						<div class="row static-info" >
+						  <div class="col-md-offset-3 col-md-9">
+						<a href="AgencyCreateQuote.html" onclick="return alert('Successfully Amount Deducted')" class="btn blue"><i class="fa fa-check"></i> Yes</a><div class="col-md-2"></div>
+						<a href="AgencyUserDashBoard.html" class="btn default">No</a>
+														</div>
 
-                        <h4 class="h4color">Legal Description</h4>
-
-                        <p>
-                            It is a 2 floors building in 3Acrs Land
-                            located at the state of North Carolina with a Address of  7971 Liberty Street Asheville.
-                            Now it is owned by Mr.Jasper Herold
-                            and main advantage is nearer to BUS STOP
-                        </p>
-                        <h4 class="h4color">Desired</h4>
-                        <p>Title Company handle the closing.</p>
-                        <p>Closing Protection Letter (CPL) is not required</p>
-                        <p>Deed need to be prepared.</p>
+                        </div>
                     </div>
-                    <hr />
-                    <span class="caption-helper ">Kind of transaction:&nbsp;Purchase</span>&nbsp;&nbsp;&nbsp;
-                    <span class="caption-helper">Type of transaction:&nbsp;Purchase</span>&nbsp;&nbsp;&nbsp;
-                    <span class="caption-helper">Owner's Policy Only&nbsp;$45,000</span>
                 </div>
-               
             </div>
-        </div>
-       
-        
-        
+						
+					</div>
+				
+					
+				</div>
+				
 			</div>
-			<!-- END PAGE CONTENT-->
-		</div>
+	 
+	 </div>
+	 </div>
+	 </div>
+			<!-- END DASHBOARD STATS -->
+			
+			<!-- 2nd row -->
+			
+			
+			
 			
 		</div>
-			</div>
-			
-		</div>
+		
 	</div>
 	
 	<div class="page-footer">
 	<div class="page-footer-inner">
-		 2014 © Title Quotes .<a href="AgencyDashboard2New.html" >Dashboard2</a>
+		 2014 © Title Quotes .<a href="LoanDashboard.html" >Dashboard</a>
 	</div>
 	<div class="scroll-to-top" style="display: block;">
 		<i class="icon-arrow-up"></i>
@@ -370,44 +326,11 @@
         });
     </script>
 	<script>
-	$('[rel=popover]').popover();
+	$('[rel=popover]').popover({ trigger: "hover" });
 	</script>
 	<style>
 	
-	.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a, .page-sidebar .page-sidebar-menu > li.active > a {
-  border-left: 3px solid #5C9ACF !important;
-  margin-left: -3px !important;
-  padding-left: 15px !important;
-}
-.page-content {
-  margin-top: 0px;
-  padding: 0px;
-  background-color: #e9ecf3;
-}
-.page-header.navbar {
-  background-color: white !important;
-  
-}
-.quest{
-
-
-margin-top: -3px !important;
- 
- margin-left: -30px !important;
-}
-
-.us
-{
-font-size: 69px !important; 
- 
- margin-left: -65px !important;
- 
- margin-top: 15px !important;
-}
-.popover .popover-title {
-  margin: 0 !important;
-  color: black;
-}
+	
 	</style>
 	</body>
 </html>
