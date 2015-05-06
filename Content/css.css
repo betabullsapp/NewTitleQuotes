@@ -433,3 +433,9 @@ font-size: 69px !important;
   font-weight: 300 !important;
 
 }
+.imgaccount
+{
+  opacity: 0.5;
+  /* font-size: smaller !important; */
+  width: 21.5px;
+}
