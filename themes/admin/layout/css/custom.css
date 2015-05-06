@@ -1,0 +1,130 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+
+/*
+Change Quick Sidebar Width
+*/
+
+/*
+.page-quick-sidebar-wrapper {
+  right: -370px;
+  width: 370px;
+}
+
+.page-quick-sidebar-open.page-quick-sidebar-push-content .page-sidebar-wrapper {
+  margin-left: -370px;
+}
+
+.page-quick-sidebar-open.page-quick-sidebar-push-content .page-footer {
+  margin-right: 370px;
+  margin-left: -370px;
+}
+
+.page-sidebar-reversed.page-quick-sidebar-open.page-quick-sidebar-push-content .page-sidebar-wrapper {
+  margin-right: 370px;
+}
+
+.page-quick-sidebar-open.page-quick-sidebar-push-content.page-quick-sidebar-full-height .page-header {
+  margin-left: -370px;
+}
+
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-list {
+  width: 370px !important;
+}
+
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-item {
+  width: 370px !important;
+  margin-left: 370px;
+}
+
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-content-item-shown .page-quick-sidebar-list {
+  margin-left: -370px;
+}
+*/
+
+
+.page-header.navbar .page-logo .logo-default{
+    margin:5px 0 0 0 !important;
+}
+
+.perror 
+{
+    color: red;
+
+background-color: #F2DEDE;
+width: initial;
+border-radius: 4px !important;
+height: 31px;
+padding-top: 5px;
+}
+.line 
+{
+    border-bottom: 1px solid #efefef;
+    padding-bottom:6px;
+}
+.broucher 
+{
+    width: 177px;
+height: 34px;
+padding: 3px;
+padding-bottom: 6px;
+margin-top: 1px;
+}
+.trash
+{
+    top: 4px;
+  right: 0;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  background: #d5dade url(../img/trash.png) center no-repeat;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+.link
+{
+    left: 38%  !important;
+}
+
+.dateread 
+{
+   
+    cursor:pointer !important;
+    background-color:white !important;
+    color:black !important;
+}
+
+.iconsize 
+{
+    font-size: initial !important;
+/* margin-top: -2px; */
+padding-top: 1px;
+}
+
+
+.loginicon 
+{
+     margin-top: -32px !important;
+    /* margin-left: 119px; */
+    margin-right: 15px !important;
+}

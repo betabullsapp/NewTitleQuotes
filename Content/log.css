@@ -1,0 +1,14 @@
+.tquotes
+{
+  font-size: 27px !important;
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 300 !important;
+
+}
+
+.navbar-inverse {
+  background-color: #222 !important;
+  border-color: #080808 !important;
+  background-color: white !important;
+  /* color: black !important; */
+}
