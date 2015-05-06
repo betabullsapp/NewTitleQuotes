@@ -1,0 +1,435 @@
+body {
+}
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a, .page-sidebar .page-sidebar-menu > li.active > a {
+  border-left: 3px solid #5C9ACF !important;
+  margin-left: -3px !important;
+  padding-left: 15px !important;
+}
+.page-content {
+  margin-top: 0px;
+  padding: 0px;
+  background-color: #e9ecf3;
+}
+.page-header.navbar {
+  background-color: white !important;
+  
+}
+.quest{
+
+
+margin-top: -3px !important;
+ 
+ margin-left: -30px !important;
+}
+
+.us
+{
+font-size: 69px !important; 
+ 
+ margin-left: -65px !important;
+ 
+ margin-top: 15px !important;
+}
+.popover .popover-title {
+  margin: 0 !important;
+  color: black;
+}
+.portlet.box.green > .portlet-title {
+  background-color: #03b3b2 !important;
+}
+.form .form-actions {
+  padding: 20px 10px;
+  margin: 0;
+  background-color: #f5f5f5;
+  border-top: 1px solid #e5e5e5;
+}
+.portlet.box.green {
+  border: 1px solid #03b3b2 !important;
+  border-top: 0 !important;
+}
+.page-title {
+   padding: 0px; 
+   font-size: 28px; 
+   letter-spacing: -1px; 
+   display: block; 
+   color: #666; 
+  margin: -18px 0px 15px 0px;
+   font-weight: 300;
+   font-family: "Open Sans", sans-serif; 
+}
+.useriamge {
+  -webkit-border-radius: 150% ! important;
+  height: 181px !important;
+  width: 181px !important;
+  border: 1px solid black !important;
+}
+.btn-success {
+  color: #fff;
+  background-color: #45B6AF;
+  border-color: #3ea49d;
+  margin-left: 11%;
+}
+
+
+/*Loan Creation*/
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a, .page-sidebar .page-sidebar-menu > li.active > a {
+  border-left: 3px solid #5C9ACF !important;
+  margin-left: -3px !important;
+  padding-left: 15px !important;
+}
+
+.page-header.navbar {
+  background-color: white !important;
+  
+}
+.quest{
+
+
+margin-top: -3px !important;
+ 
+ margin-left: -30px !important;
+}
+
+.us
+{
+font-size: 69px !important; 
+ 
+ margin-left: -65px !important;
+ 
+ margin-top: 15px !important;
+}
+.popover .popover-title {
+  margin: 0 !important;
+  color: black;
+}
+.portlet.box.green > .portlet-title {
+  background-color: #03b3b2 !important;
+}
+.form .form-actions {
+  padding: 20px 10px;
+  margin: 0;
+  background-color: #f5f5f5 !important;
+  border-top: 1px solid #e5e5e5;
+}
+.portlet.box.green {
+  border: 1px solid #03b3b2 !important;
+  border-top: 0 !important;
+}
+.page-title {
+   padding: 0px; 
+   font-size: 28px; 
+   letter-spacing: -1px; 
+   display: block; 
+   color: #666; 
+  margin: -18px 0px 15px 0px;
+   font-weight: 300;
+   font-family: "Open Sans", sans-serif; 
+}
+
+/*Dashboard loan*/
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a, .page-sidebar .page-sidebar-menu > li.active > a {
+  border-left: 3px solid #5C9ACF !important;
+  margin-left: -3px !important;
+  padding-left: 15px !important;
+}
+
+.page-header.navbar {
+  background-color: white !important;
+  
+}
+.quest{
+
+
+margin-top: -3px !important;
+ 
+ margin-left: -30px !important;
+}
+
+.us
+{
+font-size: 69px !important; 
+ 
+ margin-left: -65px !important;
+ 
+ margin-top: 15px !important;
+}
+.popover .popover-title {
+  margin: 0 !important;
+  color: black;
+}
+div.dataTables_length label {
+  font-weight: normal;
+  float: left;
+  text-align: left;
+  display: none;
+}
+/*Loan Paying*/
+
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a, .page-sidebar .page-sidebar-menu > li.active > a {
+  border-left: 3px solid #5C9ACF !important;
+  margin-left: -3px !important;
+  padding-left: 15px !important;
+}
+
+.page-header.navbar {
+  background-color: white !important;
+  
+}
+.quest{
+
+
+margin-top: -3px !important;
+ 
+ margin-left: -30px !important;
+}
+
+.us
+{
+font-size: 69px !important; 
+ 
+ margin-left: -65px !important;
+ 
+ margin-top: 15px !important;
+}
+.popover .popover-title {
+  margin: 0 !important;
+  color: black;
+}
+.portlet.box.green > .portlet-title {
+  background-color: #03b3b2 !important;
+}
+.form .form-actions {
+  padding: 20px 10px;
+  margin: 0;
+  background-color: #f5f5f5;
+  border-top: 1px solid #e5e5e5;
+}
+.portlet.box.green {
+  border: 1px solid #03b3b2 !important;
+  border-top: 0 !important;
+}
+.page-title {
+   padding: 0px; 
+   font-size: 28px; 
+   letter-spacing: -1px; 
+   display: block; 
+   color: #666; 
+  margin: -18px 0px 15px 0px;
+   font-weight: 300;
+   font-family: "Open Sans", sans-serif; 
+}
+.useriamge {
+  -webkit-border-radius: 150% ! important;
+  height: 181px !important;
+  width: 181px !important;
+  border: 1px solid black !important;
+}
+.btn-success {
+  color: #fff;
+  background-color: #45B6AF;
+  border-color: #3ea49d;
+  margin-left: 11%;
+}
+.atmwidth {
+  width: inherit !important;
+}
+.top3 {
+  margin-top: -0.7% !important;
+}
+.h4color {
+  color: orange;
+}
+.btn-success1 {
+  color: #fff;
+  background-color: #45B6AF;
+  border-color: #3ea49d;
+
+}
+.page-header.navbar.navbar-fixed-top {
+  z-index: 9995;
+  border-bottom: 2px solid #e9ecf3;
+}
+@media (max-width: 480px) {
+    /* 480px */
+    
+
+    .page-header.navbar .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle {
+        background-color: #009AA9 !important;
+  
+    }
+	 .page-header.navbar .top-menu .navbar-nav > li {
+        background-color: #009AA9 !important;
+    }
+    .pbody {
+      height: 580px !important;
+    }
+    .atmwidth {
+        width: 100% !important;  
+    }
+    .payradius{
+    -webkit-border-radius:16px !important;
+}
+    .mtop {
+  margin-top: 6px !important;
+}
+	
+}
+
+@media (max-width: 991px) {
+    .page-header.navbar .top-menu .navbar-nav > li {
+        background-color: #009AA9 !important;
+    }
+	
+	.pbody {
+      height: 580px !important;
+    }
+    .atmwidth {
+        width: 100% !important;  
+    }
+    .payradius{
+    -webkit-border-radius:16px !important;
+}
+    .mtop {
+  margin-top: 6px !important;
+}
+}
+/*Loan Profile*/
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a, .page-sidebar .page-sidebar-menu > li.active > a {
+  border-left: 3px solid #5C9ACF !important;
+  margin-left: -3px !important;
+  padding-left: 15px !important;
+}
+
+.page-header.navbar {
+  background-color: white !important;
+  
+}
+.quest{
+
+
+margin-top: -3px !important;
+ 
+ margin-left: -30px !important;
+}
+
+.us
+{
+font-size: 69px !important; 
+ 
+ margin-left: -65px !important;
+ 
+ margin-top: 15px !important;
+}
+.popover .popover-title {
+  margin: 0 !important;
+  color: black;
+}
+.portlet.box.green > .portlet-title {
+  background-color: #03b3b2 !important;
+}
+.form .form-actions {
+  padding: 20px 10px;
+  margin: 0;
+  background-color: #f5f5f5;
+  border-top: 1px solid #e5e5e5;
+}
+.portlet.box.green {
+  border: 1px solid #03b3b2 !important;
+  border-top: 0 !important;
+}
+.page-title {
+   padding: 0px; 
+   font-size: 28px; 
+   letter-spacing: -1px; 
+   display: block; 
+   color: #666; 
+  margin: -18px 0px 15px 0px;
+   font-weight: 300;
+   font-family: "Open Sans", sans-serif; 
+}
+.useriamge {
+  -webkit-border-radius: 150% ! important;
+  height: 181px !important;
+  width: 181px !important;
+  border: 1px solid black !important;
+}
+.btn-success {
+  color: #fff;
+  background-color: #45B6AF;
+  border-color: #3ea49d;
+  margin-left: 11%;
+}
+/*Loan View*/
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a, .page-sidebar .page-sidebar-menu > li.active > a {
+  border-left: 3px solid #5C9ACF !important;
+  margin-left: -3px !important;
+  padding-left: 15px !important;
+}
+
+.page-header.navbar {
+  background-color: white !important;
+  
+}
+.quest{
+
+
+margin-top: -3px !important;
+ 
+ margin-left: -30px !important;
+}
+
+.us
+{
+font-size: 69px !important; 
+ 
+ margin-left: -65px !important;
+ 
+ margin-top: 15px !important;
+}
+.popover .popover-title {
+  margin: 0 !important;
+  color: black;
+}
+.portlet.box.green > .portlet-title {
+  background-color: #03b3b2 !important;
+}
+.form .form-actions {
+  padding: 20px 10px;
+  margin: 0;
+  background-color: #f5f5f5;
+  border-top: 1px solid #e5e5e5;
+}
+.portlet.box.green {
+  border: 1px solid #03b3b2 !important;
+  border-top: 0 !important;
+}
+.page-title {
+   padding: 0px; 
+   font-size: 28px; 
+   letter-spacing: -1px; 
+   display: block; 
+   color: #666; 
+  margin: -18px 0px 15px 0px;
+   font-weight: 300;
+   font-family: "Open Sans", sans-serif; 
+}
+.useriamge {
+  -webkit-border-radius: 150% ! important;
+  height: 181px !important;
+  width: 181px !important;
+  border: 1px solid black !important;
+}
+.btn-success {
+  color: #fff;
+  background-color: #45B6AF;
+  border-color: #3ea49d;
+  margin-left: 11%;
+}
+
+.tquotes
+{
+  font-size: 27px !important;
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 300 !important;
+
+}

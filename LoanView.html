@@ -1,0 +1,657 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title Quotes</title>
+
+    <!-- <link href="./Content/bootstrap.css" rel="stylesheet" />
+    <link href="./Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="./Content/Site.css" rel="stylesheet" />
+    <link href="./Content/Title.css" rel="stylesheet" />
+	<link href="./Content/port.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <!--end up to own css with bootsrtap -->
+    <!--start with keen themes css scripts link-->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<link href="./Scripts/jquery.fileupload.css" rel="stylesheet" />
+  <link href="./Content/css.css" rel="stylesheet" />
+     <link href="./Content/port.css" rel="stylesheet" />
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+    <link href="./themes/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="./themes/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="./themes/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="./themes/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css" />
+    <link href="./themes/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+    <link href="./themes/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css" rel="stylesheet" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+    <link href="./themes/global/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
+    <link href="./themes/global/plugins/fullcalendar/fullcalendar.min.css" rel="stylesheet" type="text/css" />
+    <link href="./themes/global/plugins/jqvmap/jqvmap/jqvmap.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL PLUGIN STYLES -->
+    <!-- BEGIN PAGE STYLES -->
+    <link href="./themes/admin/pages/css/tasks.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE STYLES -->
+    <!-- BEGIN THEME STYLES -->
+    <!-- DOC: To use 'rounded corners' style just load 'components-rounded.css' stylesheet instead of 'components.css' in the below style tag -->
+    <link href="./themes/global/css/components.css" id="style_components" rel="stylesheet" type="text/css" />
+    <link href="./themes/global/css/plugins.css" rel="stylesheet" type="text/css" />
+    <link href="./themes/admin/layout/css/layout.css" rel="stylesheet" type="text/css" />
+    <link href="./themes/admin/layout/css/themes/darkblue.css" rel="stylesheet" type="text/css" id="style_color" />
+    <link href="./themes/admin/layout/css/custom.css" rel="stylesheet" type="text/css" />
+<!--     <link rel="stylesheet" href="./Content/style.css"> -->
+    <!-- END THEME STYLES -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!--start with keen themes css scripts link-->
+</head>
+<body class="page-header-fixed page-quick-sidebar-over-content page-style-square" >
+    <!-- BEGIN HEADER -->
+    <div class="page-header navbar navbar-fixed-top nav-color">
+        <!-- BEGIN HEADER INNER -->
+        <div class="page-header-inner">
+            <!-- BEGIN LOGO -->
+            <div class="page-logo">
+                <a href="#" class="navbar-brand tquotes">
+                    Title Quotes
+                </a>
+              
+            </div>
+            <!-- END LOGO -->
+            <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+            <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+            </a>
+            <!-- END RESPONSIVE MENU TOGGLER -->
+            <!-- BEGIN TOP NAVIGATION MENU -->
+            <div class="top-menu">
+                <ul class="nav navbar-nav pull-right">
+
+                    <li class="dropdown dropdown-extended dropdown-tasks" id="header_task_bar">
+
+                        <ul class="dropdown-menu extended tasks">
+
+
+                            <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 275px;"><ul class="dropdown-menu-list scroller" style="height: 275px; overflow: hidden; width: auto;" data-handle-color="#637283" data-initialized="1"></ul><div class="slimScrollBar" style="width: 7px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 7px; z-index: 99; right: 1px; background: rgb(99, 114, 131);"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; opacity: 0.2; z-index: 90; right: 1px; background: rgb(234, 234, 234);"></div></div>
+                    
+                </ul>
+                </li>
+                <!-- END TODO DROPDOWN -->
+                <!-- BEGIN USER LOGIN DROPDOWN -->
+                <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+                <li class="dropdown dropdown-user">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        &nbsp;&nbsp; <span class="username username-hide-on-mobile nav-text">
+                            UserName
+                        </span>
+                        <img alt="" class="img-circle" src="./themes/admin/layout4/img/avatar9.jpg">
+                        
+                    </a>&nbsp;&nbsp;&nbsp;
+                    <ul class="dropdown-menu dropdown-menu-default">
+                        <li>
+                            <a href="LoanProfile.html">
+                                <i class="icon-user"></i> My Profile
+                            </a>
+                        </li>
+                        <li>
+                            <a href="LoanPassword.html">
+                                <i class="icon-key"></i> Change password
+                            </a>
+                        </li>
+                        <li class="divider">
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <i class="icon-logout"></i> Log Out
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+            <!-- END TOP NAVIGATION MENU -->
+        </div>
+        <!-- END HEADER INNER -->
+    </div>
+    <!-- END HEADER -->
+    <div class="clearfix" style="background-color: black;">
+    </div>
+    <!-- BEGIN CONTAINER -->
+    <div class="page-container">
+        <!-- BEGIN SIDEBAR -->
+        <div class="page-sidebar-wrapper">
+            <div class="page-sidebar navbar-collapse collapse">
+                <ul class="page-sidebar-menu page-sidebar-menu-closed" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200" style="background-color:white;border:1px solid #000">
+                    <!-- DOC: To remove the sidebar toggler from the sidebar you just need to completely remove the below "sidebar-toggler-wrapper" LI element -->
+                    <li class="sidebar-toggler-wrapper">
+                        <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+                        <div class="sidebar-toggler">
+                        </div>
+                        <!-- END SIDEBAR TOGGLER BUTTON -->
+                    </li>
+                    <li class="sidebar-search-wrapper ms-hover">
+                        <form class="sidebar-search " action="extra_search.html" method="POST">
+                            <a href="javascript:;" class="remove">
+                                <i class="icon-close"></i>
+                            </a>
+                           <!--  @*<div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search...">
+                                    <span class="input-group-btn">
+                                        <a href="javascript:;" class="btn submit"><i class="icon-magnifier"></i></a>
+                                    </span>
+                                </div>*@ -->
+                        </form>
+                        <!-- END RESPONSIVE QUICK SEARCH FORM -->
+                    </li>
+                    <li class="start active open">
+                        <a href="LoanDashboard.html">
+                            <i class="icon-home"></i>
+                            <span class="title">Dashboard</span>
+                            <span class="selected"></span>
+                            <span class="arrow open"></span>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="LoanCreation.html">
+                            <i class="icon-user"></i>
+                            <span class="title">Create Loan Information</span>
+                            <span class="arrow "></span>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="LoanProfile.html">
+                            <i class="icon-check"></i>
+                            <span class="title">My Profile</span>
+                            <span class="arrow "></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="LoanPassword.html">
+                            <i class="icon-question"></i>
+                            <span class="title">Change Password</span>
+
+                        </a>
+                    </li>
+                </ul>
+                <!-- END SIDEBAR MENU -->
+            </div>
+        </div>
+
+<div class="page-content-wrapper" style="background-color: #e9ecf3;">
+            <div class="page-content" style="background-color:#e9ecf3 !important">
+						
+			<!-- BEGIN PAGE HEADER-->
+			
+			
+			<!-- END PAGE HEADER-->
+			<!-- BEGIN PAGE CONTENT-->
+			
+			<div class="portlet light">
+				<div class="portlet-body">
+					<div class="row">
+					<h2 class="page-title top3" >
+			View Loan Information
+			</h2><hr/>
+   
+	
+	<div class="clearfix">
+			</div>
+			<div class="col-md-2"></div>
+			<div class="row ">
+				
+				<div class="col-md-8 col-sm-12">
+				<div class="margin-bottom-5">
+				 <a href="LoanDashboard.html" class="btn btn-circle btn-default viewcircle">
+                                    <i class="m-icon-swapleft "></i> Back
+                                </a>
+								
+								 <a href="EditLoan.html" class="btn btn-circle btn-default viewcircle pull-right">
+                                    <i class="fa fa-reply"></i> Edit
+                                </a>
+								</div>
+								
+					<div class="portlet box blue-hoki">
+            <div class="portlet-title">
+                <div class="caption ">
+                    <i class=""></i>
+                    <span class="caption-subject bold uppercase ">Title Insurance</span>
+                </div>
+                <div class="actions">
+                    <span class="caption-subject ">
+                        Owner's Policy Only
+                    </span>
+
+                </div>
+               
+            </div>
+
+            <div class="portlet-body">
+                <div class="" style="height:" data-rail-visible="1" data-rail-color="yellow" data-handle-color="#a1b2bd">
+                    <h4 class="h4color">Primary Address</h4>
+                    <div class="portlet-body">
+                        <div class="row static-info">
+                            <div class="col-md-2 name">
+                                Street:
+                            </div>
+                            <div class="col-md-4 value">
+                                7971 Liberty Street,
+                            </div>
+                        </div>
+                        <div class="row static-info">
+                            <div class="col-md-2 name">
+                                City:
+                            </div>
+                            <div class="col-md-4 value">
+                                Asheville,
+                            </div>
+                        </div>
+                        <div class="row static-info">
+                            <div class="col-md-2 name">
+                                State:
+                            </div>
+                            <div class=" col-md-4 value">
+                                NC 20009,
+                            </div>
+                        </div>
+                        <div class="row static-info">
+                            <div class="col-md-2 name">
+                                Countryr:
+                            </div>
+                            <div class=" col-md-4 value">
+                                Buncombe.
+                            </div>
+                        </div>
+                    </div>
+
+                    <h4 class="h4color">Legal Description</h4>
+
+                    <p>
+                        It is a 2 floors building in 3Acrs Land
+                        located at the state of North Carolina with a Address of  7971 Liberty Street Asheville.
+                        Now it is owned by Mr.Jasper Herold
+                        and main advantage is nearer to BUS STOP
+                    </p>
+                    <h4 class="h4color">Desired</h4>
+                    <p>Title Company handle the closing.</p>
+                    <p>Closing Protection Letter (CPL) is not required</p>
+                    <p>Deed need to be prepared.</p>
+                </div>
+                <hr />
+                        <span class="caption-helper ">Kind of transaction:&nbsp;Purchase</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="caption-helper">Type of transaction:&nbsp;Purchase</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="caption-helper">Owner's Policy Only&nbsp;$45,000</span>
+            </div>
+
+        </div>
+		
+				</div>
+			</div>
+		
+			<div class="clearfix">
+			</div>
+			<div class="col-md-2"></div>
+			<div class="row">
+			<div class="col-md-8 ">
+			<h4 class="bold uppercase" style="color:#e26a6a"><i class="fa fa-quote-left"></i>&nbsp;Quotes Received</h4>
+			</div>
+			</div>
+				
+			<div class="col-md-2"></div>
+			<div class="row ">
+				<div class="col-md-8 ">
+				<div class="portlet box blue-steel">
+						<div class="portlet-title">
+							<div class="caption" style="padding:0 0;">
+								<h4 style="font-size:15px"> U.S. Federal Government Land Agencies</h4>
+							</div>
+							
+							<div class="actions ">
+							
+                    
+                                <a href="LoanAcceptPaying.html" class="btn btn-circle btn-default viewcircle">
+                                    <i class="fa fa-reply"></i> Accept
+                                </a>
+                </div>
+						</div>
+						<div class="portlet-body">
+                <div class="" style="height:" data-rail-visible="1" data-rail-color="yellow" data-handle-color="#a1b2bd">
+
+                    <div class="portlet-body">
+                        <div class="row static-info">
+                            <div class="col-md-4 name">
+                                Quote Amount:
+                            </div>
+                            <div class="col-md-8 value">
+                                $20,000.00
+                            </div>
+                        </div>
+                        <div class="row static-info">
+                            <div class="col-md-4 name">
+                                Quote Description:
+                            </div>
+                            <div class="col-md-8 value">
+                                The building located area is not famous so i can offer less amount.,
+                            </div>
+                        </div>
+						<hr>
+						<div class="row static-info" style="text-align:-webkit-right" ;="">
+                            <div class="col-md-12 name ">
+                                Created On: 3/2/2015
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+						
+					</div>
+				
+					
+				</div>
+				
+			</div>
+			
+			<div class="clearfix">
+			</div>
+			<div class="col-md-2"></div>
+			<div class="row">
+			<div class="col-md-8 col-sm-8">
+					<div class="portlet box blue-steel">
+						<div class="portlet-title">
+							<div class="caption" style="padding:0 0;">
+								<h4 style="font-size:15px">Green Land Agencies</h4>
+							</div>
+							
+							<div class="actions ">
+							
+                    
+                                <a href="LoanAcceptPaying.html" class="btn btn-circle btn-default viewcircle">
+                                    <i class="fa fa-reply"></i> Accept
+                                </a>
+                </div>
+						</div>
+						<div class="portlet-body">
+                <div class="" style="height:" data-rail-visible="1" data-rail-color="yellow" data-handle-color="#a1b2bd">
+
+                    <div class="portlet-body">
+                        <div class="row static-info">
+                            <div class="col-md-4 name">
+                                Quote Amount:
+                            </div>
+                            <div class="col-md-8 value">
+                                $15,000.00
+                            </div>
+                        </div>
+                        <div class="row static-info">
+                            <div class="col-md-4 name">
+                                Quote Description:
+                            </div>
+                            <div class="col-md-8 value">
+                                The building is in good condition.
+                            </div>
+                        </div>
+						<hr>
+						<div class="row static-info" style="text-align:-webkit-right" ;="">
+                            <div class="col-md-12 name ">
+                                Created On: 4/25/2015
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+						
+					</div>
+				</div>
+			
+			</div>
+			<div class="clearfix">
+			</div>
+			<div class="col-md-2"></div>
+			<div class="row ">
+				<div class="col-md-8 ">
+					<div class="portlet box blue-steel">
+						<div class="portlet-title">
+							<div class="caption" style="padding:0 0;">
+								<h4 style="font-size:15px">U.S. Federal Government Land Agencies</h4>
+							</div>
+							
+							<div class="actions ">
+							
+                    
+                                <a href="LoanAcceptPaying.html" class="btn btn-circle btn-default viewcircle">
+                                    <i class="fa fa-reply"></i> Accept
+                                </a>
+                </div>
+						</div>
+						<div class="portlet-body">
+                <div class="" style="height:" data-rail-visible="1" data-rail-color="yellow" data-handle-color="#a1b2bd">
+
+                    <div class="portlet-body">
+                        <div class="row static-info">
+                            <div class="col-md-4 name">
+                                Quote Amount:
+                            </div>
+                            <div class="col-md-8 value">
+                                $30,000.00
+                            </div>
+                        </div>
+                        <div class="row static-info">
+                            <div class="col-md-4 name">
+                                Quote Description:
+                            </div>
+                            <div class="col-md-8 value">
+                                The building located area is not famous so i can offer less amount.
+                            </div>
+                        </div>
+						<hr>
+						<div class="row static-info" style="text-align:-webkit-right" ;="">
+                            <div class="col-md-12 name ">
+                                Created On: 2/5/2015
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+						
+					</div>
+				</div>
+				
+			</div>
+			<div class="clearfix">
+			</div>
+			<div class="col-md-2"></div>
+			<div class="row">
+			<div class="col-md-8 col-sm-8">
+					<div class="portlet box blue-steel">
+						<div class="portlet-title">
+							<div class="caption" style="padding:0 0;">
+								<h4 style="font-size:15px">Green Land Agencies</h4>
+							</div>
+							
+							<div class="actions ">
+							
+                    
+                                <a href="LoanAcceptPaying.html" class="btn btn-circle btn-default viewcircle">
+                                    <i class="fa fa-reply"></i> Accept
+                                </a>
+                </div>
+						</div>
+						<div class="portlet-body">
+                <div class="" style="height:" data-rail-visible="1" data-rail-color="yellow" data-handle-color="#a1b2bd">
+
+                    <div class="portlet-body">
+                        <div class="row static-info">
+                            <div class="col-md-4 name">
+                                Quote Amount:
+                            </div>
+                            <div class="col-md-8 value">
+                                $12,000.00
+                            </div>
+                        </div>
+                        <div class="row static-info">
+                            <div class="col-md-4 name">
+                                Quote Description:
+                            </div>
+                            <div class="col-md-8 value">
+                                The building is in good condition.
+                            </div>
+                        </div>
+						<hr>
+						<div class="row static-info" style="text-align:-webkit-right" ;="">
+                            <div class="col-md-12 name ">
+                                Created On: 4/15/2015
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+						
+					</div>
+				</div>
+			</div>
+					</div>
+					</div>
+					</div>
+			
+			
+			
+		</div>
+		
+	</div>
+	
+	<div class="page-footer">
+	<div class="page-footer-inner">
+		 2014 © Title Quotes .<a href="LoanDashboard2.html" >Dashboard2</a>
+	</div>
+	<div class="scroll-to-top" style="display: block;">
+		<i class="icon-arrow-up"></i>
+	</div>
+</div>
+	<script src="./themes/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="./themes/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+<!-- IMPORTANT! Load jquery-ui.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+<script src="./themes/global/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+<script src="./themes/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="./themes/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="./themes/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="./themes/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="./themes/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+<script src="./themes/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+<script src="./themes/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script type="text/javascript" src="./themes/global/plugins/jquery-validation/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="./themes/global/plugins/jquery-validation/js/additional-methods.min.js"></script>
+<script type="text/javascript" src="./themes/global/plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js"></script>
+<script type="text/javascript" src="./themes/global/plugins/fuelux/js/spinner.min.js"></script>
+<script type="text/javascript" src="./themes/global/plugins/bootstrap-fileinput/bootstrap-fileinput.js"></script>
+<script type="text/javascript" src="./themes/global/plugins/jquery-inputmask/jquery.inputmask.bundle.min.js"></script>
+<script type="text/javascript" src="./themes/global/plugins/jquery.input-ip-address-control-1.0.min.js"></script>
+<script src="./themes/global/plugins/bootstrap-pwstrength/pwstrength-bootstrap.min.js" type="text/javascript"></script>
+<script src="./themes/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<script src="./themes/global/plugins/jquery-tags-input/jquery.tagsinput.min.js" type="text/javascript"></script>
+<script src="./themes/global/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js" type="text/javascript"></script>
+<script src="./themes/global/plugins/bootstrap-touchspin/bootstrap.touchspin.js" type="text/javascript"></script>
+<script src="./themes/global/plugins/typeahead/handlebars.min.js" type="text/javascript"></script>
+<script src="./themes/global/plugins/typeahead/typeahead.bundle.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="./themes/global/plugins/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="./themes/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="./themes/global/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
+<script type="text/javascript" src="./themes/global/plugins/clockface/js/clockface.js"></script>
+<script type="text/javascript" src="./themes/global/plugins/bootstrap-daterangepicker/moment.min.js"></script>
+<script type="text/javascript" src="./themes/global/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script type="text/javascript" src="./themes/global/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+<script type="text/javascript" src="./themes/global/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+<!-- IMPORTANT! fullcalendar depends on jquery-ui.min.js for drag & drop support -->
+<script src="./themes/global/plugins/fullcalendar/fullcalendar.min.js" type="text/javascript"></script>
+<script src="./themes/global/plugins/jquery-easypiechart/jquery.easypiechart.min.js" type="text/javascript"></script>
+<script src="./themes/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>
+<!-- END PAGE LEVEL PLUGINS -->
+<!-- END PAGE LEVEL PLUGINS -->
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script type="text/javascript" src="./themes/global/plugins/select2/select2.min.js"></script>
+<!-- END PAGE LEVEL PLUGINS -->
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="./themes/global/scripts/metronic.js" type="text/javascript"></script>
+<script src="./themes/admin/layout/scripts/layout.js" type="text/javascript"></script>
+<script src="./themes/admin/layout/scripts/quick-sidebar.js" type="text/javascript"></script>
+<script src="./themes/admin/layout/scripts/demo.js" type="text/javascript"></script>
+<script src="./themes/admin/pages/scripts/form-wizard.js"></script>
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <script>
+        jQuery(document).ready(function () {
+            Metronic.init(); // init metronic core componets
+            Layout.init(); // init layout
+            QuickSidebar.init(); // init quick sidebar
+            Demo.init(); // init demo features
+           
+             FormWizard.init();
+        
+            Tasks.initDashboardWidget();
+            ComponentsPickers.init();
+			
+        });
+    </script>
+	
+	<script>
+
+    function CopyMe(oFileInput, sTargetID) {
+        var arrTemp = oFileInput.value.split('\\');
+        document.getElementById(sTargetID).value = arrTemp[arrTemp.length - 1];
+    }
+    
+    $("#fu-my-simple-upload").on('change', function () {
+        $("#tbx-file-path").val(this.files[0].name);
+    });
+
+
+    $("input[type='radio']").change(function () {
+
+        if ($(this).val() == "other") {
+            $("#othertext").show();
+        }
+        else {
+            $("#othertext").hide();
+        }
+
+    });
+
+   
+
+   
+
+</script>
+
+<script>
+
+    
+        $('#fu-my-simple-upload').change(function (e) {
+
+            var img = URL.createObjectURL(e.target.files[0]);
+            if (img ) {
+                $('.useriamge').attr('src', img);
+            }
+            else {
+                preventDefault(e);
+            }
+        });
+    
+    
+</script>
+	<style>
+	
+	
+	</style>
+	</body>
+</html>
