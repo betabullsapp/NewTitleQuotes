@@ -439,3 +439,31 @@ font-size: 69px !important;
   /* font-size: smaller !important; */
   width: 21.5px;
 }
+.brlabel
+{
+border-left: 3px solid #3598dc !important;
+color: black !important;
+ background-color: lavender;
+ padding: 2px 8px 3px 7px !important;
+}
+.label-color {
+  background-color: #0099cc !important;
+}
+.label-purple
+{
+background-color: #8775a7 !important;
+
+}
+.label-blue
+{
+background-color:#3598dc !important;
+}
+.label {
+  text-shadow: none !important;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 3px 6px 3px 6px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  padding: 2px 8px 3px 7px !important;
+}

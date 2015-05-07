@@ -44,10 +44,6 @@ var TableManaged = function () {
                 "orderable": true
             },{
                 "orderable": true
-            },{
-                "orderable": true
-            },{
-                "orderable": false
             }],
             "lengthMenu": [
                 [5, 15, 20, -1],
@@ -129,7 +125,17 @@ var TableManaged = function () {
             //"dom": "<'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r>t<'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>",
 
             "bStateSave": true, // save datatable state(pagination, sort, etc) in cookie.
-
+ "columns": [{
+                "orderable": true
+            }, {
+                "orderable": true
+            }, {
+                "orderable": true
+            }, {
+                "orderable": true
+            },{
+                "orderable": true
+            }],
             "lengthMenu": [
                 [5, 15, 20, -1],
                 [5, 15, 20, "All"] // change per page values here
@@ -211,12 +217,6 @@ var TableManaged = function () {
                 "orderable": true
             },{
                 "orderable": true
-            },{
-                "orderable": true
-            },{
-                "orderable": true
-            },{
-                "orderable": false
             }],
 			
             "lengthMenu": [
