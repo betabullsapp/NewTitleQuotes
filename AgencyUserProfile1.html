@@ -43,7 +43,6 @@
     <link href="./themes/global/css/components.css" id="style_components" rel="stylesheet" type="text/css" />
     <link href="./themes/global/css/plugins.css" rel="stylesheet" type="text/css" />
     <link href="./themes/admin/layout/css/layout.css" rel="stylesheet" type="text/css" />
-	<link href="./themes/admin/pages/css/profile.css" rel="stylesheet" type="text/css"/>
     <link href="./themes/admin/layout/css/themes/darkblue.css" rel="stylesheet" type="text/css" id="style_color" />
     <link href="./themes/admin/layout/css/custom.css" rel="stylesheet" type="text/css" />
 <!--     <link rel="stylesheet" href="./Content/style.css"> -->
@@ -54,7 +53,7 @@
 <link href="./Scripts/jquery.fileupload.css" rel="stylesheet" />
     <!--start with keen themes css scripts link-->
 </head>
-<body class="page-header-fixed page-quick-sidebar-over-content page-style-square" style="overflow-y:hidden">
+<body class="page-header-fixed page-quick-sidebar-over-content page-style-square" >
     <!-- BEGIN HEADER -->
     <div class="page-header navbar navbar-fixed-top nav-color">
         <!-- BEGIN HEADER INNER -->
@@ -198,82 +197,69 @@
             <div class="page-content" style="background-color:#e9ecf3 !important">
 						
 			<!-- BEGIN PAGE HEADER-->
-			<div class="row ">
-				<div class="col-md-12">
-					<!-- BEGIN PROFILE SIDEBAR -->
-					<div class="profile-sidebar">
-						<!-- PORTLET MAIN -->
-						<div class="portlet light profile-sidebar-portlet">
-							<!-- SIDEBAR USERPIC -->
-							<div class="profile-userpic">
+			
+			<div class="portlet light">
+    <div class="portlet-body">
+	<h3 class="page-title top3">
+			Profile Information
+			</h3><hr/> 
+     <div class="row">
+	 <div action="#" class="form-horizontal pull-left col-md-3">
+       <div class="portlet light profile-sidebar-portlet">
+            <!-- SIDEBAR USERPIC -->
+            <div class="profile-userpic">
                 <img src="./images/default_user.png" class="img-responsive useriamge" alt="">
             </div>
             <br />
-            <span class="btn btn-success fileinput-button changeavatar" style="margin-left: 28%;">
+            <span class="btn btn-success fileinput-button changeavatar">
                 <span>Change Avatar..!</span>
                 <input type="file" onchange="CopyMe(this, 'txtFileName');" id="fu-my-simple-upload" class="file ">
             </span>
-							<!-- END SIDEBAR BUTTONS -->
-					<br/>
-<br/><br/>	<br/><br/><br/><br/><br/>			<!-- SIDEBAR MENU -->
-							
-							<!-- END MENU -->
-						</div>
-						<!-- END PORTLET MAIN -->
-						
-						<!-- END PORTLET MAIN -->
-					</div>
-					<!-- END BEGIN PROFILE SIDEBAR -->
-					<!-- BEGIN PROFILE CONTENT -->
-					<div class="profile-content">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="portlet light">
-									<div class="portlet-title tabbable-line">
-										<div class="caption caption-md">
-											<i class="icon-globe theme-font hide"></i>
-											<span class="caption-subject font-blue-madison bold uppercase">profile Information</span>
-										</div>
-										<ul class="nav nav-tabs">
-											<li class="active">
-												<a href="#tab_1_1" data-toggle="tab" aria-expanded="true">Personal Information</a>
-											</li>
-											<li class="">
-												<a href="#tab_1_2" data-toggle="tab" aria-expanded="false">Agent information</a>
-											</li>
-											
-											
-										</ul>
-									</div>
-									<div class="portlet-body">
-										<div class="tab-content">
-											<!-- PERSONAL INFO TAB -->
-											<div class="tab-pane active" id="tab_1_1">
-												<form >
-												<div class="row">
-												<div class="col-md-6">
-												<div class="form-group input-medium">
-														<label class="control-label">First Name</label>
-														<input type="text" class="form-control ">
-													</div>
-													<div class="form-group input-medium">
-														<label class="control-label">Last Name</label>
-														<input type="text" class="form-control ">
-													</div>
-													<div class="form-group input-medium">
-													<label class="control-label">Email Address</label>
-														<div class="input-group">
+            
+        </div>
+       
+
+    </div>
+    <!-- END FORM-->
+    <div action="#" class="form-horizontal col-md-3">
+        <div class="form-body">
+            <div class="form-group">
+
+                <div class=" col-md-10">
+                    <label>First Name</label>
+                    <input type="text" class="form-control " placeholder="first name">
+                </div>
+            </div>
+
+
+            <div class="form-group">
+
+                <div class=" col-md-10">
+                    <label>Last Name</label>
+                    <input type="text" class="form-control " placeholder="last name">
+                </div>
+            </div>
+            <div class="form-group">
+
+                <div class="col-md-10">
+                    <label>Email Address</label>
+                    <div class="input-group">
                         <span class="input-group-addon input-circle-left">
                             <i class="fa fa-envelope"></i>
                         </span>
                         <input type="email" class="form-control " placeholder="Email Address">
                     </div>
-													</div>
-													<div class="form-group input-large">
-													
-														<label class="control-label">Number of Years in Operation</label>
-														<div class="form-inline ">
-														<select class="form-control input-xsmall" id="selectoperation">
+                </div>
+            </div>
+
+
+            <div class="form-body">
+
+                <div class="">
+                    <label class="">Number of Years in Operation</label>
+                    <br />
+                    <div class="form-inline" >
+                        <select class="form-control " id="selectoperation">
                             <option value="1" class="option">1</option>
                             <option value="2" class="option">2</option>
                             <option value="3" class="option">3</option>
@@ -286,25 +272,21 @@
                             <option value="10" class="option">10</option>
                             <option value="other" class="option">Other</option>
                         </select>
-						<input type="text" class="form-control " id="operationother" placeholder="Other">
-													</div></div>
-													<div class="form-group input-medium">
-														<label class="control-label">Number of Employees</label>
-														<input type="text" class="form-control ">
-													</div>
-													<div class="form-group input-medium">
-														<label class="control-label">Amount of deductible</label>
-														<input type="text" class="form-control ">
-													</div>
-													
-													
-												</div>
-												<div class="col-md-6">
-												
-													
-													<div class="form-group input-medium">
-														<label class="control-label">State in which you are licensed</label>
-														<select multiple="" class="form-control ">
+                        <input type="text" class="form-control " id="operationother" placeholder="Other">
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="form-group">
+                <div class="col-md-10">
+                    <label>Number of Employees</label>
+                    <input type="text" class="form-control " placeholder="">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10">
+                    <label>States in which you are licensed</label>
+                    <select multiple="" class="form-control ">
                         <option class="option">Alabama</option>
                         <option class="option">Alaska</option>
                         <option class="option">Arizona</option>
@@ -354,12 +336,17 @@
                         <option class="option">Wisconsin</option>
                         <option class="option">Wyoming</option>
                     </select>
-													</div>
-													
-													
-													<div class="form-group input-medium">
-														<label class="control-label">Coverage Area by State</label>
-														<select class="form-control ">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div action="#" class="form-horizontal col-md-3">
+        <div class="form-body">
+            <div class="form-group">
+                <div class="col-md-10">
+                    <label>Coverage Area by State</label>
+                    <select class="form-control ">
                         <option class="option">Alabama</option>
                         <option class="option">Alaska</option>
                         <option class="option">Arizona</option>
@@ -409,10 +396,12 @@
                         <option class="option">Wisconsin</option>
                         <option class="option">Wyoming</option>
                     </select>
-													</div>
-													<div class="form-group input-medium">
-														<label class="control-label">Coverage Area by Country</label>
-														 <select class="form-control ">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10">
+                    <label>Coverage Area by Country</label>
+                    <select class="form-control ">
                         <option class="option">Select a Country</option>
                         <option class="option">Afghanistan</option>
                         <option class="option">Albania</option>
@@ -583,35 +572,31 @@
                         <option class="option">Zambia</option>
                         <option class="option">Zimbabwe</option>
                     </select>
-													</div>
-													
-													
-													<div class="form-group input-medium">
-														<label class="control-label">Amount of E&O coverage</label>
-														<input type="text" class="form-control ">
-													</div>
-												</div>
-												</div>
-														</form>
-													</div>
-
-            
-
-												
-										
-											<!-- END PERSONAL INFO TAB -->
-											<!-- CHANGE AVATAR TAB -->
-											<div class="tab-pane" id="tab_1_2">
-												
-												<form action="#" role="form">
-												<div class="row">
-												<div class="col-md-6">
-												
-													
-													<div class="form-group input-medium">
-														<label class="control-label">Do you have fidelity bond</label>
-														<div class="input-group">
-                        <div class="radio-list">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10">
+                    <label>Names of underwriters for whom you are an agent</label>
+                    <input type="text" class="form-control " placeholder="">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10">
+                    <label>Amount of E&O coverage</label>
+                    <input type="text" class="form-control " placeholder="Amount $">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10">
+                    <label>Amount of deductible</label>
+                    <input type="text"  class="form-control " placeholder="Deducible Amount $">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10">
+                    <label>Do you have a fidelity bond?</label>
+                    <div class="input-group">
+                        <div class="icheck-inline">
                             <label>
                                 <input type="radio" name="radio" class="icheck"> yes
                             </label>
@@ -620,11 +605,17 @@
                             </label>
                         </div>
                     </div>
-													</div>
-													<div class="form-group input-medium">
-														<label class="control-label">Do you have Physical locations?</label>
-														<div class="input-group">
-                        <div class="radio-list">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div action="#" class="form-horizontal col-md-3">
+        <div class="form-body">
+            <div class="form-group">
+                <div class="col-md-10">
+                    <label>Do you have physical locations?</label>
+                    <div class="input-group">
+                        <div class="icheck-inline">
                             <label>
                                 <input type="radio" name="radio1" class="icheck"> yes
                             </label>
@@ -633,13 +624,14 @@
                             </label>
                         </div>
                     </div>
-													</div>
-													
-													<div class="form-group input-medium">
-														<label class="control-label">Number of Title claims filled against you</label>
-														<div class="input-group">
-                        <div class="radio-list">
-                           <label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10">
+                    <label>Number of title claims filed against you</label>
+                    <div class="input-group">
+                        <div class="">
+                            <label>
                                 <input type="radio" name="radio2" class="icheck">Zero
                             </label>
                             <label>
@@ -656,57 +648,38 @@
                             </label>
                         </div>
                     </div>
-													</div>
-												</div>
-												
-												<div class="col-md-6">
-												<div class="form-group input-medium">
-														<label class="control-label">Names of underwriters for whom you are an agent</label>
-														<input type="text" class="form-control ">
-													</div>
-												<div class="form-group input-medium">
-														<label class="control-label">Average turn time from order entry to commitment sent</label>
-														<input type="text" class="form-control ">
-													</div>
-													<div class="form-group input-medium">
-														<label class="control-label">Average turn time from order entry to clear to close</label>
-														<input type="text" class="form-control ">
-													</div>
-													<div class="form-group input-medium">
-														<label class="control-label">Company Name</label>
-														<input type="text" class="form-control ">
-													</div>
-													<br><br><br>
-													<div class="margiv-top-10">
-														<a href="javascript:;" class="btn green-haze">
-														Save Changes </a>
-														<a href="javascript:;" class="btn default">
-														Cancel </a>
-													</div>
-													
-												</div>
-												</div>
-													
-													
-												</form>
-											</div>
-											<!-- END CHANGE AVATAR TAB -->
-											<!-- CHANGE PASSWORD TAB -->
-											
-											<!-- END CHANGE PASSWORD TAB -->
-											<!-- PRIVACY SETTINGS TAB -->
-											
-											<!-- END PRIVACY SETTINGS TAB -->
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- END PROFILE CONTENT -->
-				</div>
-			</div>
-		<!-- row end-->
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10">
+                    <label>Average turn time from order entry to commitment sent</label>
+                    <input type="text" class="form-control " placeholder="">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10">
+                    <label>Average turn time from order entry to clear to close</label>
+                    <input type="text" class="form-control " placeholder="">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10">
+                    <label>Company Name</label>
+                    <input type="text" class="form-control " placeholder="">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-10">
+                <label class=""></label>
+                <a href="AgencyUserDashBoard.html" onclick="return alert('Profile Saved Successfully')" class="btn btn-success">Save changes</a>
+            </div>
+        </div>
+    </div>
+	 </div>
+	 </div>
+	 </div>
+			
 			
 		</div>
 		
